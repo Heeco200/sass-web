@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .box {
+        width: 25%;
+        .icon {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 35%;
+            margin: 10px 0;
+            transition: .2s;
+        }
+        .commit {
+            color: white;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 24px;
+        }
+        &:hover {
+            background-color: #0048BAFF;
+        }
+        &:hover img {
+            transform: scale(1.1);
+        }
+    }
+    .box1 {
+        background-color: #AF7AC5FF;
+        transition: .2s;
+    }
+    .box1::before {
+        content: "";
+        background-color: rgb(122, 197, 141);
+        width: 10%;
+        height: 10%;
+        transform: rotate(90deg);
+        border: none;
+        border-radius: 3px;
+        position: relative;
+        z-index: 200;
+    }
+    .box2 {
+        background-color: #5DADE2FF;
+        transition: .2s;
+    }
+    .box3 {
+        background-color: #48C9B0FF;
+        transition: .2s;
+    }
+    .box4 {
+        background-color: #52BE80FF;
+        transition: .2s;
+    }
+    .box5 {
+        background-color: #ECC837FF;
+        transition: .2s;
+    }
+    .box6 {
+        background-color: #EB974EFF;
+        transition: .2s;
+    }
+    .box7 {
+        background-color: #F06292FF;
+        transition: .2s;
+    }
+    .box8 {
+        background-color: #4DB6ACFF;
+        transition: .2s;
+    }
+}

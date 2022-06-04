@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .box {
+  width: 25%;
+}
+
+.container .box .icon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .box img {
+  width: 35%;
+  margin: 10px 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box .commit {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container .box h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .box p {
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+.container .box:hover {
+  background-color: #0048BAFF;
+}
+
+.container .box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container .box1 {
+  background-color: #AF7AC5FF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box1::before {
+  content: "";
+  background-color: #7ac58d;
+  width: 10%;
+  height: 10%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  z-index: 200;
+}
+
+.container .box2 {
+  background-color: #5DADE2FF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box3 {
+  background-color: #48C9B0FF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box4 {
+  background-color: #52BE80FF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box5 {
+  background-color: #ECC837FF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box6 {
+  background-color: #EB974EFF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box7 {
+  background-color: #F06292FF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .box8 {
+  background-color: #4DB6ACFF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/*# sourceMappingURL=style.css.map */
